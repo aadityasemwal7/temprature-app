@@ -12,7 +12,7 @@ app.get("/", (req, res) =>{
 			const temp = weatherData.main.temp
 			const cityName = weatherData.name
 			const countryName = weatherData.sys.country
-			console.log(`City -> ${cityName}, Country -> ${countryName}, Temprature -> ${temp}`);
+			console.log(`City -> ${cityName},Country -> ${countryName},Temprature -> ${temp}`);
 		})
 	})
 
